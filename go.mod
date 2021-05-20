@@ -28,6 +28,7 @@ require (
 	github.com/fatih/color v1.9.0 // indirect
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/gavv/httpexpect/v2 v2.2.0
+	github.com/gfleury/go-bitbucket-v1 v0.0.0-20210119103841-412cc3323e5e
 	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32
 	github.com/go-git/go-git/v5 v5.3.0
 	github.com/go-openapi/inflect v0.19.0
@@ -49,7 +50,7 @@ require (
 	github.com/joncalhoun/qson v0.0.0-20200422171543-84433dcd3da0
 	github.com/mattn/go-colorable v0.1.6 // indirect
 	github.com/minio/minio-go v1.0.1-0.20190523192347-c6c2912aa552
-	github.com/mitchellh/mapstructure v1.4.1 // indirect
+	github.com/mitchellh/mapstructure v1.4.1
 	github.com/mitchellh/reflectwalk v1.0.1 // indirect
 	github.com/nats-io/gnatsd v1.4.1 // indirect
 	github.com/nats-io/go-nats v1.7.2
