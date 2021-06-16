@@ -87,13 +87,13 @@ func schema_pkg_apis_sensor_v1alpha1_AWSLambdaTrigger(ref common.ReferenceCallba
 					},
 					"accessKey": {
 						SchemaProps: spec.SchemaProps{
-							Description: "AccessKey refers K8 secret containing aws access key",
+							Description: "AccessKey refers K8s secret containing aws access key",
 							Ref:         ref("k8s.io/api/core/v1.SecretKeySelector"),
 						},
 					},
 					"secretKey": {
 						SchemaProps: spec.SchemaProps{
-							Description: "SecretKey refers K8 secret containing aws secret key",
+							Description: "SecretKey refers K8s secret containing aws secret key",
 							Ref:         ref("k8s.io/api/core/v1.SecretKeySelector"),
 						},
 					},
@@ -155,7 +155,7 @@ func schema_pkg_apis_sensor_v1alpha1_ArgoWorkflowTrigger(ref common.ReferenceCal
 				Properties: map[string]spec.Schema{
 					"source": {
 						SchemaProps: spec.SchemaProps{
-							Description: "Source of the K8 resource file(s)",
+							Description: "Source of the K8s resource file(s)",
 							Ref:         ref("github.com/argoproj/argo-events/pkg/apis/sensor/v1alpha1.ArtifactLocation"),
 						},
 					},
@@ -1627,7 +1627,7 @@ func schema_pkg_apis_sensor_v1alpha1_StandardK8STrigger(ref common.ReferenceCall
 					},
 					"source": {
 						SchemaProps: spec.SchemaProps{
-							Description: "Source of the K8 resource file(s)",
+							Description: "Source of the K8s resource file(s)",
 							Ref:         ref("github.com/argoproj/argo-events/pkg/apis/sensor/v1alpha1.ArtifactLocation"),
 						},
 					},
